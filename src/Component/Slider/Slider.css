@@ -1,0 +1,97 @@
+.slider-main-container {
+  margin-top: 2%;
+  z-index: 1;
+}
+
+.ticket-carousel-image {
+  width: 100%;
+  height: 410px;
+  border-radius: 8px;
+}
+
+.react-multi-carousel-dot-list {
+  position: absolute;
+  top: 470px;
+  cursor: pointer;
+  font-size: 2px;
+}
+
+.custom-dot-list-style {
+  margin-top: 20px;
+}
+
+.custom-dot {
+  width: 14px;
+  height: 14px;
+  background-color: #eee9e9;
+  border-radius: 50%;
+  margin-right: 5px;
+  position: relative;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  cursor: pointer;
+}
+
+.custom-dot::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border-radius: 50%;
+  background: linear-gradient(
+    127.29deg,
+    #8338EC -4.57%,
+    #F64F59 30.47%,
+    #F5AF19 72.22%,
+    #C471ED 102.35%
+  );
+  
+  z-index: -1; 
+
+}
+
+.custom-dot.active {
+  background: linear-gradient(
+    127.29deg,
+    #8338EC -4.57%,
+    #F64F59 30.47%,
+    #F5AF19 72.22%,
+    #C471ED 102.35%
+  );
+ 
+}
+  @media only  screen  and (min-width:601px) and  (max-width:845px) {
+    .ticket-carousel-image {
+      width: 100%;
+      height:280px;
+      border-radius: 8px;
+    }
+    
+    .react-multi-carousel-dot-list{
+      top: 340px;
+    }
+
+    .custom-dot {
+      width: 12px;
+      height: 12px;}
+  }
+
+
+@media only  screen  and (min-width:360px) and  (max-width:600px)  {
+  .ticket-carousel-image {
+    width: 100%;
+    height: 150px;
+     
+  }
+
+  .react-multi-carousel-dot-list{
+    top: 220px;
+  }
+
+  .custom-dot {
+    width: 8px;
+    height: 8px;}
+
+}

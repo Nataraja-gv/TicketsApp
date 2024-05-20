@@ -1,0 +1,206 @@
+.Navbar-main-container {
+  width: 100%;
+  height: 84px;
+  background-color: rgb(31, 31, 31);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(
+    90.27deg,
+    rgba(245, 175, 25, 0.5) 13.92%,
+    rgba(241, 39, 17, 0.5) 37.19%,
+    rgba(131, 56, 236, 0.5) 66.47%
+  );
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.navbar-title-containar {
+  display: block;
+  align-items: center;
+  margin-left: 6%;
+  cursor: pointer;
+}
+.navbar-website-logo {
+  width: 209.68px;
+  height: 51.88px;
+}
+
+.navbar-right-side-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 5%;
+  width: 50%;
+}
+
+.navbar-input-container {
+  display: flex;
+  width: 60%;
+  height: 44px;
+  padding: 12px, 16px, 12px, 16px;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  border-radius: 76px;
+  color: white;
+  cursor: pointer;
+
+  
+}
+
+.navbar-input-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 76px;
+  padding: 1.2px;
+  background: linear-gradient(
+    127.29deg,
+    #8338ec -4.57%,
+    #f64f59 30.47%,
+    #c471ed 61.19%,
+    #f5af19 94.53%
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  /* mask-composite: exclude; */
+}
+
+.navbar-input-box {
+  height: 40px;
+  width: 90%;
+  margin: auto;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+.navbar-input-container ::placeholder {
+  font-size: 14px;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 1.02px;
+}
+
+.navbar-input-searchIcon {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+.Nvabar-about-logo {
+  width: 31.78px;
+  height: 31.78px;
+  cursor: pointer;
+
+}
+.navbar-about-logo-section {
+  border-radius: 50%;
+  padding: 8px 10px;
+  /* border: 1px solid #c471ed; */
+  position: relative;
+  cursor: pointer;
+   
+}
+.navbar-about-logo-section::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 76px;
+  padding: 1.2px;
+  background: linear-gradient(
+    127.29deg,
+    #8338ec -4.57%,
+    #f64f59 30.47%,
+    #c471ed 61.19%,
+    #f5af19 94.53%
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+
+}
+
+
+.navbar-Hi-guest-section h3 {
+  font-size: 16px;
+  font-weight: 601;
+  line-height: 20.8px;
+  color: white;
+}
+
+.navbar-sidebar-icon {
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+
+}
+
+@media only  screen  and (min-width:601px) and  (max-width:845px)  {
+  .navbar-website-logo {
+    width: 150.68px;
+    height: 45.88px;
+  }
+
+  .navbar-input-container{
+  padding: 8px, 12px, 8px, 12px;
+  align-items: center;
+  }
+
+  .navbar-input-container ::placeholder{
+    font-size: 10px;
+  }
+
+  .navbar-input-searchIcon{
+    width: 15px;
+  height: 15px;
+   align-self: center;
+    margin-top: 2%;
+  }
+
+  .navbar-Hi-guest-section{
+    display: none;
+  }
+
+  .Nvabar-about-logo {
+    width: 25.78px;
+    height: 25.78px;
+  }
+}
+
+
+@media only  screen  and (min-width:360px) and  (max-width:600px)  {
+  .navbar-website-logo {
+    width: 80px;
+    height: 50px;
+  }
+
+  .navbar-about-logo-section{
+    display: none;
+  }
+
+.navbar-Hi-guest-section h3 {
+ display: none;
+}
+
+.navbar-input-container{
+  display: none;
+}
+
+.Navbar-main-container {
+  justify-content: space-between;
+}
+
+}

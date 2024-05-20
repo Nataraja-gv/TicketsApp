@@ -1,0 +1,29 @@
+.event-display-main-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 90%;
+    margin: auto;
+
+}
+
+.event-display-left-conatiner{
+    
+   
+}
+
+
+.event-display-right-conatiner{
+       
+}
+.event-display-Second-container{
+    display: grid;
+    grid-template-columns:  25% 25% 25% 25%;
+    width: 90%;
+    margin: auto;
+}
+
+@media only  screen  and (min-width:360px) and  (max-width:400px)  {
+    .event-display-Second-container{
+        display: none;
+    }
+}
