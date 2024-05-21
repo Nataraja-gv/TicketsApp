@@ -9,6 +9,10 @@
     rgba(241, 39, 17, 0.5) 37.19%,
     rgba(131, 56, 236, 0.5) 66.47%
   );
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
   }
 
   .mobile-nvbar-top-section {

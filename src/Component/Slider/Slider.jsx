@@ -1,8 +1,8 @@
 import React from "react";
 import "./Slider.css";
-import s1 from "../../assets/Rectangle 332 (1).png";
-import s2 from "../../assets/Rectangle 332 (2).png";
-import s3 from "../../assets/Rectangle 333.png";
+import s1 from "./s1.png";
+import s2 from "./s2.png";
+import s3 from "./s3.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -42,13 +42,13 @@ const Slider = () => {
         itemClass="carousel-item-padding-40-px itemimage"
         removeArrowOnDeviceType={["desktop", "mobile","tablet"]}
       >
-        <div>
+        <div className="mobile-carosel-divider">
           <img src={s1} alt="" className="ticket-carousel-image" />
         </div>
-        <div>
+        <div className="mobile-carosel-divider">
           <img src={s2} alt="" className="ticket-carousel-image" />
         </div>
-        <div>
+        <div className="mobile-carosel-divider">
           <img src={s3} alt="" className="ticket-carousel-image" />
         </div>
       </Carousel>
