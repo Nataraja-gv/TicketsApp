@@ -1,21 +1,53 @@
-@media screen and (min-width:360px) and (max-width:600px)  {
-    .mobile-navbar-container{
-  background-color: rgb(31, 31, 31);
-        
-         
-    }
+@media screen and (min-width: 360px) and (max-width: 600px) {
+  .mobile-navbar-container {
+    background-color: rgb(31, 31, 31);
+    border-bottom: 2px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(
+    90.27deg,
+    rgba(245, 175, 25, 0.5) 13.92%,
+    rgba(241, 39, 17, 0.5) 37.19%,
+    rgba(131, 56, 236, 0.5) 66.47%
+  );
+  }
 
-     
-    .mobile-nvbar-top-section{
-        width: 90%;
-        margin: auto;;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+  .mobile-nvbar-top-section {
+    width: 90%;
+    height: 56px;
+    top: 44px;
+    gap: 0px;
+    border: 0px 0px 1px 0px;
+    opacity: 0px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mobile-navbar-title-containar {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 2%;
+  }
+  .mobile-navbar-website-logo {
+    width: 32px;
+    height: 25.78px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .mobile-navbar-title-containar h3 {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.5px;
+    text-align: left;
+  }
 
-    .mobile-navbar-website-logo{
-        width: 150.68px;
-  height: 40.88px;
-    }
+  .mobile-navbar-search-icon {
+    width: Hug (24px) px;
+    height: Hug (24px) px;
+    gap: 14px;
+    opacity: 0px;
+  }
 }
