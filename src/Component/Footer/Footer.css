@@ -126,6 +126,12 @@ margin: 20px auto;
 
 
 @media only screen and (min-width: 360px) and (max-width: 600px) {
+  .footer-image-image {
+    width: 150px ;
+    height: 150px;
+  }
+
+  
   .footer-top-container {
       display: block;  
       width: 80%;

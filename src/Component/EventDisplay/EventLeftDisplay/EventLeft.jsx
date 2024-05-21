@@ -11,7 +11,7 @@ const EventLeft = ({ props }) => {
       <div className="eventleft-first-image-container">
         <img src={props.Image} alt="" className="eventleft-first-image " />
         <Link to="/"> <div className="eventLeft-back-section">
-          <IoArrowBackOutline /> 
+          <IoArrowBackOutline  className="event-exit-left-image"/> 
         </div></Link>
       </div>
 

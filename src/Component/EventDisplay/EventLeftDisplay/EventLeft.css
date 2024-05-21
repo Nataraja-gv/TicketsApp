@@ -39,8 +39,8 @@
 
 .eventLeft-back-section{
   position: absolute;
-  top:25px;
-  left:35px;
+  top:20px;
+  left:20px;
   padding: 6px 6px ;
   gap: 16px;
   border-radius: 30px ;
@@ -210,19 +210,23 @@
 @media only  screen  and (min-width:360px) and  (max-width:600px)  {
   .eventleft-first-image {
     width: 100%;
-    height: 300px;
-    
+    height: 196px;
     border-radius: 20px;
   }
 
   .eventleft-first-image-container::before{
-    height: 299px;
+    height: 196px;
 
   }
   
   .eventLeft-back-section{
-  padding: 2px 2px ;
+    padding: 2px 2px ;
 
+  }
+
+  .event-exit-left-image{
+    width: 12px;
+    height: 12px;
   }
 
   .event-left-details-container h1,
@@ -232,16 +236,16 @@
 
 .eventLeft-MenuDetails-container ul li,
 .event-left-details-container ul li{
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .eventLeft-MenuDetails-container ul li span,
 .event-left-details-container ul li span {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .eventLeft-scanner-container .eventlef-scanner-image {
-  height: 250px;
+  height: 196px;
 
 }
 
@@ -255,6 +259,11 @@
   width: 10px;
   height: 10px;
    
+}
+.Eventleft-main-container {
+  width: 100%;
+  overflow:auto;
+  
 }
 
  
