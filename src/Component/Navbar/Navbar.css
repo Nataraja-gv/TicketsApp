@@ -193,6 +193,10 @@
   }
   .navbar-mobile-navbar-section{
     display: block;
+    position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
   }
   /* .Navbar-main-container{
     display: flex;justify-content: space-between;
