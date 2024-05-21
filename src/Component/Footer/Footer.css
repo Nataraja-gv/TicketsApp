@@ -1,0 +1,146 @@
+.Footer-main-container {
+  border-top: 2px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(
+    90.27deg,
+    rgba(245, 175, 25, 0.5) 13.92%,
+    rgba(241, 39, 17, 0.5) 37.19%,
+    rgba(131, 56, 236, 0.5) 66.47%
+  );
+  margin-top: 50px;
+  width: 100%;
+}
+
+.footer-top-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-image-image {
+  width: Fixed (1, 440px) px;
+  height: Hug (322px) px;
+}
+
+.footer-title {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: -0.37382352352142334px;
+  text-align: left;
+  background: linear-gradient(90.92deg, #f7f6fe 4.39%, #bf99f5 83.43%);
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.footer-top-container li {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  background: rgba(227, 222, 252, 1);
+  background-clip: text;
+  color: transparent;
+  width: 100%;
+}
+
+.footer-company-section {
+  display: flex;
+  gap: 10%;
+}
+
+.footer-input-conatiner {
+  background: #d3ccfa;
+  padding: 3px 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  height: 40px;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.Your-email-address {
+  background: #D3CCFA;
+  border: none;
+  outline: none;
+  padding: 3px 10px;
+  width: 100%;
+}
+
+.Your-email-address::placeholder {
+  font-size: 16px;
+  color: white;
+}
+
+.footer-share-image {
+  color: white;
+}
+.footer-social-icon{
+  background-color:#ababfa;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 15px;
+  opacity: 0.9;
+  cursor: pointer;
+   
+}
+
+.footer-social-media-conatiner {
+  color:white;
+  display: flex;
+  gap: 16px;
+  width: 176px;
+   
+  
+  
+}
+
+.Footer-bottom-container{
+   
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align:center;
+background: #E3DEFC;
+background-clip: text;
+color:transparent;
+margin: 20px auto;
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .footer-top-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 20px;
+  }
+}
+
+
+@media only screen and (min-width: 360px) and (max-width: 600px) {
+  .footer-top-container {
+      display: block;  
+      width: 80%;
+      margin: 50px auto 0 auto;  
+      align-content: center;
+      text-align: center;  
+  }
+
+  .footer-title {
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+  
+  .footer-social-media-conatiner{
+    display: flex;
+    width: 100%;
+     justify-content: center;
+  }
+}

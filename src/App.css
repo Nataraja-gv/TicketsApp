@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+ }
+
+ body{
+    background: rgba(32, 25, 55, 1);
+  font-family: Open Sans;
+   
+
+ }
