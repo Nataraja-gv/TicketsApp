@@ -1,0 +1,21 @@
+@media screen and (min-width:360px) and (max-width:600px)  {
+    .mobile-navbar-container{
+  background-color: rgb(31, 31, 31);
+        
+         
+    }
+
+     
+    .mobile-nvbar-top-section{
+        width: 90%;
+        margin: auto;;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .mobile-navbar-website-logo{
+        width: 150.68px;
+  height: 40.88px;
+    }
+}

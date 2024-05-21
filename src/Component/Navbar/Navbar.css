@@ -147,6 +147,9 @@
   cursor: pointer;
 
 }
+.navbar-mobile-navbar-section{
+  display: none;
+}
 
 @media only  screen  and (min-width:601px) and  (max-width:845px)  {
   .navbar-website-logo {
@@ -178,10 +181,22 @@
     width: 25.78px;
     height: 25.78px;
   }
+  .navbar-mobile-navbar-section{
+    display: none;
+  }
 }
 
 
 @media only  screen  and (min-width:360px) and  (max-width:600px)  {
+  .Navbar-main-container{
+    display: none;
+  }
+  .navbar-mobile-navbar-section{
+    display: block;
+  }
+  /* .Navbar-main-container{
+    display: flex;justify-content: space-between;
+  }
   .navbar-website-logo {
     width: 80px;
     height: 50px;
@@ -201,6 +216,6 @@
 
 .Navbar-main-container {
   justify-content: space-between;
-}
+} */
 
 }
