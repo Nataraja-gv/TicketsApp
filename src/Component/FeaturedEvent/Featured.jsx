@@ -36,7 +36,7 @@ const Featured = () => {
 
             <ul className='Featured-mobile-bottom-container'>
                
-                {events.slice(0, 2).map((event, index) => (
+                {events.slice(0, 3).map((event, index) => (
                     <li key={index}>{event}</li>
                 ))}
             </ul>

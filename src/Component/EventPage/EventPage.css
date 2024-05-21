@@ -6,27 +6,45 @@
 .Event-page-main-container a{
     text-decoration: none;
 }
+.eventpages-mobile-section{
+    display: none;
+}
+
+.eventpages-desktop-section{
+    display: block;
+}
+
 @media only screen and (min-width: 601px) and (max-width: 750px) {
     .Event-page-main-container{
         display: grid;
         grid-template-columns:  33% 33% 33% ;
        
     }
-}
-
-@media only  screen  and (min-width:360px) and  (max-width:400px)  {
-    .Event-page-main-container{
-        display: grid;
-        grid-template-columns:  100%;
-       
+    .eventpages-mobile-section{
+        display: none;
     }
+    .eventpages-desktop-section{
+        display: block;
+    }
+    
 }
 
+ 
 
-@media only  screen  and (min-width:401px) and  (max-width:600px)  {
+
+@media only  screen  and (min-width:360px) and  (max-width:600px)  {
     .Event-page-main-container{
         display: grid;
         grid-template-columns: 50% 50%;
        
     }
+
+    .eventpages-mobile-section{
+        display: block;
+    }
+
+    .eventpages-desktop-section{
+        display: none;
+    }
+    
 }

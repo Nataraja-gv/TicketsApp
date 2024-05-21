@@ -1,0 +1,165 @@
+@media screen and (min-width: 360px) and (max-width: 600px) {
+  .MobileEvent-main-container {
+    padding: 6px;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    position: relative;
+  }
+
+  .MobileEvent-main-container a {
+    text-decoration: none;
+  }
+
+  .MobileEvent-main-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 8px;
+    padding: 1.2px;
+    background: linear-gradient(
+      127.29deg,
+      #8338ec -4.57%,
+      #f64f59 30.47%,
+      #c471ed 61.19%,
+      #f5af19 94.53%
+    );
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+  }
+
+  .Mobileevent-image-container {
+    position: relative;
+    width: 100%;
+  }
+
+  .Mobileevent-amount-section {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    }
+
+  .Mobileevent-image {
+    width: 100%;
+    height: 147px;
+    gap: 0px;
+    border-radius: 5.98px;
+    border: 0.4px;
+    opacity: 0px;
+  }
+
+  .Mobileevent-amount-section p {
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32.4px;
+    letter-spacing: -0.37382352352142334px;
+    text-align: left;
+    margin-left: 2%;
+    background: rgba(227, 222, 252, 1);
+    background-clip: text;
+    color: transparent;
+  }
+  .Mobileevent-amount-section p span {
+    font-family: Open Sans;
+    font-size: 14.95px;
+    font-weight: 700;
+    line-height: 20.19px;
+    letter-spacing: -0.37382352352142334px;
+    text-align: left;
+  }
+
+  .Mobileevent-djanjessh-section p {
+    font-family: Open Sans;
+    font-size: 10px;
+    font-weight: 601;
+    line-height: 15.6px;
+    letter-spacing: -0.37382352352142334px;
+    text-align: left;
+    background: rgba(227, 222, 252, 1);
+    background-clip: text;
+    color: transparent;
+    margin: 5px auto;
+  }
+
+  .MobileEvent-titile-container h2 {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 601;
+    line-height: 23.4px;
+    text-align: left;
+    background: rgba(227, 222, 252, 1);
+    background-clip: text;
+    color: transparent;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-wrap: nowrap;
+  }
+
+  .Mobileevent-place-container{
+    display: flex;
+    gap:5px;
+    align-items: center;
+    }
+
+
+  .Mobileevent-place-container p {
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 601;
+    line-height: 15.6px;
+    letter-spacing: -0.37382352352142334px;
+    text-align: left;
+    background: rgba(227, 222, 252, 1);
+    background-clip: text;
+    color: transparent;
+     
+  }
+
+  .Mobileevent-date-container{
+    display: flex;
+    gap:5px;
+    align-items: center;
+    margin: 5px auto;
+  }
+
+  .Mobileevent-date-container p {
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 601;
+    line-height: 15.6px;
+    letter-spacing: -0.37382352352142334px;
+    text-align: left;
+    background: rgba(227, 222, 252, 1);
+    background-clip: text;
+    color: transparent;
+  }
+
+   .calender-mobileevent{
+    color:white;
+    width: 15px;
+    height: 15px;
+   }
+
+    
+
+  .Mobileexit-event-image {
+    width: 20.65px;
+    height: 20.65px;
+    padding: 1.69px 1.96px 1.96px 1.96px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border: 2px solid rgb(230, 186, 243);
+    padding: 3px;
+    border-radius: 50px;
+    background-color: black;
+  }
+}
