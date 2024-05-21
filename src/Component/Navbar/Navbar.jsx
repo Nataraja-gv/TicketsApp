@@ -8,8 +8,8 @@ import Mobilenavbar from "../MobileNavbar/Mobilenavbar";
 
 const Navbar = () => {
   return (
-    <div>
-      <div className="Navbar-main-container">
+    <div className="navbar-display-main-container" >
+      <div className="Navbar-main-container" >
         <div className="navbar-title-containar">
           <img src={ticketsque} className="navbar-website-logo" />
         </div>

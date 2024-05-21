@@ -2,7 +2,7 @@
   .MobileEvent-main-container {
     padding: 6px;
     align-items: center;
-    width: 90%;
+    width: 100%;
     margin-bottom: 5%;
     margin-top: 5%;
     position: relative;
@@ -149,8 +149,8 @@
     
 
   .Mobileexit-event-image {
-    width: 20.65px;
-    height: 20.65px;
+    width: 20px;
+    height: 20px;
     padding: 1.69px 1.96px 1.96px 1.96px;
     gap: 0px;
     opacity: 0px;
@@ -161,5 +161,6 @@
     padding: 3px;
     border-radius: 50px;
     background-color: black;
+    color:rgb(240, 224, 249);
   }
 }

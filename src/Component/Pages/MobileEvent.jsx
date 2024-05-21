@@ -5,6 +5,7 @@ import exit from "../../assets/share.png"
 import { SlCalender } from "react-icons/sl";
 import { CiLocationOn } from "react-icons/ci";
 import { AiOutlineShareAlt } from "react-icons/ai";
+import { GoShareAndroid } from "react-icons/go";
 const MobileEvent = (props) => {
     return (
         <div className='MobileEvent-main-container'>
@@ -42,7 +43,8 @@ const MobileEvent = (props) => {
              
 
             <div className='Mobileevent-exit-container'>
-                <img src={exit} alt='' className='Mobileexit-event-image'/>
+                {/* <img src={exit} alt='' className='Mobileexit-event-image'/> */}
+                <GoShareAndroid className='Mobileexit-event-image'/>
             </div>
         </div>
     );
