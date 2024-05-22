@@ -6,7 +6,7 @@ import "./FooterNavbar.css";
 import { Link } from "react-router-dom";
 
 const FooterNavbar = () => {
-  const [active, setActive] = useState("home");
+  const [active, setActive] = useState();
 
   const handleIconClick = (icon) => {
     setActive(icon);
