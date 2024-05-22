@@ -1,7 +1,7 @@
 .Eventleft-main-container {
   width: 100%;
   overflow: scroll;
-  height: 100vh;
+  height: 150vh;
 }
 
 .Eventleft-main-container::-webkit-scrollbar{
@@ -268,10 +268,11 @@
   height: 10px;
    
 }
+ 
 .Eventleft-main-container {
   width: 100%;
-   
+  overflow: scroll;
+  height: 100%;
 }
-
  
 }
