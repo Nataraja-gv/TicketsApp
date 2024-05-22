@@ -222,6 +222,7 @@
   }
 
   .eventleft-first-image-container::before{
+    width: 99.5%;
     height: 194.5px;
 
   }
