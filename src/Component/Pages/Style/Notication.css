@@ -1,0 +1,32 @@
+.Notification-main-container{
+    width:90% ;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.Notification-main-container h1{
+    font-size: 20px;
+    background: linear-gradient(90.92deg, #F7F6FE 4.39%, #BF99F5 68.87%);
+    background-clip: text;
+    color:transparent;
+    margin: 20px 0px; 
+}
+
+.notification-card-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 3px 6px;
+    border-radius: 10px;
+    align-items: center;
+    text-decoration: none;
+    gap:10px
+}
+
+.notification-card-container h2{
+    font-size: 18px;
+}
+
+.notification-card-container p{
+    font-size: 14px;
+}

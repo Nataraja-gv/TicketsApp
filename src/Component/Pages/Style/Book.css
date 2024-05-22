@@ -1,0 +1,14 @@
+.Book-main-container{
+    width:90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.book-tickets{
+    width: 200px;
+    height: 200px;
+}

@@ -5,6 +5,7 @@ import { CgProfile } from "react-icons/cg";
 import "./FooterNavbar.css";
 import { Link } from "react-router-dom";
 
+
 const FooterNavbar = () => {
   const [active, setActive] = useState();
 
@@ -26,6 +27,7 @@ const FooterNavbar = () => {
           <h2 style={{ color: active === "home" ? "#590080" : "white" }}>Home</h2>
         </div>
       </Link>
+      <Link to="/Notifications"> 
       <div
         className="footer-notification-container"
         onClick={() => handleIconClick("notifications")}
@@ -36,6 +38,8 @@ const FooterNavbar = () => {
         />
         <h2 style={{ color: active === "notifications" ? "#590080" : "white" }}>Notifications</h2>
       </div>
+      </Link>
+      <Link to="/Book"> 
       <div
         className="footer-mybooking-container"
         onClick={() => handleIconClick("bookings")}
@@ -46,6 +50,9 @@ const FooterNavbar = () => {
         />
         <h2 style={{ color: active === "bookings" ? "#590080" : "white" }}>My Bookings</h2>
       </div>
+      </Link>
+
+      <Link to="Profile"> 
       <div
         className="footer-profile-container"
         onClick={() => handleIconClick("profile")}
@@ -56,6 +63,7 @@ const FooterNavbar = () => {
         />
         <h2 style={{ color: active === "profile" ? "#590080" : "white" }}>Profile</h2>
       </div>
+      </Link>
     </div>
   );
 };

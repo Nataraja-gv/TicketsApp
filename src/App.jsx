@@ -5,6 +5,10 @@ import Footer from "./Component/Footer/Footer"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import  EventDisplay from "./Component/EventDisplay/EventDisplay"
 import FooterNavbar from "./Component/FooterNavbar/FooterNavbar" 
+import Notification from "./Component/Pages/Notification"
+import Book from "./Component/Pages/Book"
+import Profile from "./Component/Pages/Profile"
+
 function App() {
   return <div>
 
@@ -16,6 +20,12 @@ function App() {
     <Route path=":EventID" element={<EventDisplay/>}></Route>
       
     </Route>
+
+    <Route path="/Notifications" element={<Notification/>}></Route>
+    <Route path="/Book" element={<Book/>}></Route>
+
+    <Route path="/Profile" element={<Profile/>}></Route>
+
     </Routes>
      
      <div className="app-desktop-mobile-footer-container">
