@@ -26,7 +26,8 @@
     }
 
     .app-desktop-mobile-footer-container{
-      position: sticky;
+      width: 100%;
+      position: fixed;
       bottom: 0;
     }
    
