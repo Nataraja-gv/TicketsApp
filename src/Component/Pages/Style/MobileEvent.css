@@ -157,7 +157,7 @@
     position: absolute;
     top: 15px;
     right: 15px;
-    border: 2px solid rgb(230, 186, 243);
+    border: 0.5px solid rgb(230, 186, 243);
     padding: 3px;
     border-radius: 50px;
     background-color: black;

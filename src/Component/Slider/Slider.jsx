@@ -1,8 +1,8 @@
 import React from "react";
 import "./Slider.css";
-import s1 from "./s1.png";
-import s2 from "./s2.png";
-import s3 from "./s3.png";
+import s1 from "../../assets/sa1.png";
+import s2 from "../../assets/sa2.png";
+import s3 from "../../assets/sa3.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 

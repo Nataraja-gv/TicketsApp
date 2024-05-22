@@ -6,12 +6,12 @@
 .ticket-carousel-image {
   width: 100%;
   height: 410px;
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 .react-multi-carousel-dot-list {
   position: absolute;
-  top: 470px;
+  top: 480px;
   cursor: pointer;
   font-size: 2px;
 }
@@ -32,7 +32,7 @@
   cursor: pointer;
 }
 
-.custom-dot::before {
+/* .custom-dot::before {
   content: "";
   position: absolute;
   top: -2px;
@@ -49,7 +49,7 @@
   );
 
   z-index: -1;
-}
+} */
 
 .custom-dot.active {
    background:rgb(98, 46, 243);
@@ -73,6 +73,7 @@
 
 @media only screen and (min-width: 360px) and (max-width: 600px) {
   .slider-main-container {
+    margin-bottom: 15px;
   }
 
   
@@ -91,11 +92,11 @@
 } */
 
   .react-multi-carousel-dot-list {
-    top: 180px;
+    top: 200px;
   }
 
   .custom-dot {
-    width: 5px;
-    height: 5px;
+    width: 10px;
+    height: 10px;
   }
 }
