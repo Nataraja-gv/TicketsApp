@@ -21,9 +21,9 @@ const FooterNavbar = () => {
         >
           <GoHome
             className="footer-navbar-icon"
-            style={{ color: active === "home" ? "red" : "white" }} 
+            style={{ color: active === "home" ? "#590080" : "white" }} 
           />
-          <h2 style={{ color: active === "home" ? "red" : "white" }}>Home</h2>
+          <h2 style={{ color: active === "home" ? "#590080" : "white" }}>Home</h2>
         </div>
       </Link>
       <div
@@ -32,9 +32,9 @@ const FooterNavbar = () => {
       >
         <GoBell
           className="footer-navbar-icon"
-          style={{ color: active === "notifications" ? "red" : "white" }}
+          style={{ color: active === "notifications" ? "#590080" : "white" }}
         />
-        <h2 style={{ color: active === "notifications" ? "red" : "white" }}>Notifications</h2>
+        <h2 style={{ color: active === "notifications" ? "#590080" : "white" }}>Notifications</h2>
       </div>
       <div
         className="footer-mybooking-container"
@@ -42,9 +42,9 @@ const FooterNavbar = () => {
       >
         <PiBookLight
           className="footer-navbar-icon"
-          style={{ color: active === "bookings" ? "red" : "white" }}
+          style={{ color: active === "bookings" ? "#590080" : "white" }}
         />
-        <h2 style={{ color: active === "bookings" ? "red" : "white" }}>My Bookings</h2>
+        <h2 style={{ color: active === "bookings" ? "#590080" : "white" }}>My Bookings</h2>
       </div>
       <div
         className="footer-profile-container"
@@ -52,9 +52,9 @@ const FooterNavbar = () => {
       >
         <CgProfile
           className="footer-navbar-icon"
-          style={{ color: active === "profile" ? "red" : "white" }}
+          style={{ color: active === "profile" ? "#590080" : "white" }}
         />
-        <h2 style={{ color: active === "profile" ? "red" : "white" }}>Profile</h2>
+        <h2 style={{ color: active === "profile" ? "#590080" : "white" }}>Profile</h2>
       </div>
     </div>
   );
