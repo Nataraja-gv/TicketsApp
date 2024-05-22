@@ -53,11 +53,11 @@
   border-radius: 76px;
   color: white;
   cursor: pointer;
+  border: 2px solid rgb(188, 89, 89);
 
-  
 }
 
-.navbar-input-container::before {
+/* .navbar-input-container::before {
   content: "";
   position: absolute;
   top: 0;
@@ -76,7 +76,7 @@
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
   /* mask-composite: exclude; */
-}
+/* }  */
 
 .navbar-input-box {
   height: 40px;
@@ -85,6 +85,7 @@
   outline: none;
   border: none;
   background: transparent;
+  color:white
 }
 
 .navbar-input-container ::placeholder {
@@ -92,6 +93,7 @@
   color: white;
   font-weight: 700;
   letter-spacing: 1.02px;
+
 }
 
 .navbar-input-searchIcon {

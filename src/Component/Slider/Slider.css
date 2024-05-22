@@ -52,13 +52,7 @@
 }
 
 .custom-dot.active {
-  background: linear-gradient(
-    127.29deg,
-    #8338ec -4.57%,
-    #f64f59 30.47%,
-    #f5af19 72.22%,
-    #c471ed 102.35%
-  );
+   background:rgb(98, 46, 243);
 }
 @media only screen and (min-width: 601px) and (max-width: 845px) {
   .ticket-carousel-image {

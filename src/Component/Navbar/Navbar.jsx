@@ -15,6 +15,7 @@ const Navbar = () => {
         </div>
 
         <div className="navbar-right-side-container">
+        
           <div className="navbar-input-container">
             <input
               type="text"
