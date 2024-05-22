@@ -1,12 +1,10 @@
-.footernavbar-main-container{
-display: flex; 
-justify-content: space-around;
-height: Hug (58px)px;
-padding: 8px 24px 8px 24px;
-gap: 8px;
-border: 1px  ;
-opacity: 0px;
-border-top: 2px solid;
+.footernavbar-main-container {
+  display: flex;
+  justify-content: space-around;
+  height: 58px;
+  padding: 8px 24px;
+  gap: 8px;
+  border-top: 2px solid;
   border-image-slice: 1;
   border-image-source: linear-gradient(
     90.27deg,
@@ -16,30 +14,28 @@ border-top: 2px solid;
   );
   margin-top: 50px;
   width: 100%;
-  
-
 }
 
-.footernavbar-main-container h2{
-    font-family: Open Sans;
-font-size: 12px;
-font-weight: 400;
-line-height: 16.2px;
-letter-spacing: -0.5px;
-text-align: center;
-background: #E3DEFC;
-background-clip: text;
-color:transparent;
+.footernavbar-main-container h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.2px;
+  letter-spacing: -0.5px;
+  text-align: center;
+  background: #e3defc;
+  background-clip: text;
+  color: transparent;
 }
 
-.footer-home-conatiner,
-.footer-Notification-conatiner,
-.footer-MyBooking-conatiner,
-.footer-Profile-conatiner{
-    display: inline-block;
-    text-align: center;
+.footer-home-container,
+.footer-notification-container,
+.footer-mybooking-container,
+.footer-profile-container {
+  display: inline-block;
+  text-align: center;
 }
 
-.footer-navbar-icon{
-    color:white
+.footer-navbar-icon {
+  color: white;
 }
