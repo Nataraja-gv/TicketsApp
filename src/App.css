@@ -11,3 +11,23 @@
    
 
  }
+
+ .mobile-footer-container{
+   display: none;
+ }
+
+
+ @media screen and (min-width:360px) and (max-width:600px){
+   .mobile-footer-container{
+      display: block;
+    background: rgba(32, 25, 55, 1);
+       
+    
+    }
+
+    .app-desktop-mobile-footer-container{
+      position: sticky;
+      bottom: 0;
+    }
+   
+ }

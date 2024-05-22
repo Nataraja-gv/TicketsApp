@@ -4,7 +4,7 @@ import Home from "./Component/HomeDisplay/Home"
 import Footer from "./Component/Footer/Footer"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import  EventDisplay from "./Component/EventDisplay/EventDisplay"
- 
+import FooterNavbar from "./Component/FooterNavbar/FooterNavbar" 
 function App() {
   return <div>
 
@@ -18,7 +18,15 @@ function App() {
     </Route>
     </Routes>
      
-    <Footer/>
+     <div className="app-desktop-mobile-footer-container">
+      <div className="desktop-footer-container">
+     <Footer/>
+      </div>
+
+      <div className="mobile-footer-container">
+        <FooterNavbar/>
+      </div>
+     </div>
   </BrowserRouter>
     
   </div>;

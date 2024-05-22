@@ -6,6 +6,7 @@ import { IoLogoInstagram } from "react-icons/io5";
 import { FaFacebookF } from "react-icons/fa6";
 import { BsTwitterX } from "react-icons/bs";
 import { IoLogoLinkedin } from "react-icons/io5";
+
 const Footer = () => {
     return (
         <div className='Footer-main-container'>

@@ -126,7 +126,10 @@ margin: 20px auto;
 
 
 @media only screen and (min-width: 360px) and (max-width: 600px) {
-  .footer-image-image {
+  .Footer-main-container{
+    display: none;
+  }
+  /* .footer-image-image {
     width: 150px ;
     height: 150px;
   }
@@ -153,5 +156,5 @@ margin: 20px auto;
 
   .Footer-bottom-container{
     font-size: 12px;
-  }
+  } */
 }
