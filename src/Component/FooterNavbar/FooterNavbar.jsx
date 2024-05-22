@@ -22,9 +22,9 @@ const FooterNavbar = () => {
         >
           <GoHome
             className="footer-navbar-icon"
-            style={{ color: active === "home" ? "#590080" : "white" }} 
+            style={{ color: active === "home" ? "rgb(221, 160, 19)" : "white" }} 
           />
-          <h2 style={{ color: active === "home" ? "#590080" : "white" }}>Home</h2>
+          <h2 style={{ color: active === "home" ? "rgb(221, 160, 19)" : "white" }}>Home</h2>
         </div>
       </Link>
       <Link to="/Notifications"> 
@@ -34,9 +34,9 @@ const FooterNavbar = () => {
       >
         <GoBell
           className="footer-navbar-icon"
-          style={{ color: active === "notifications" ? "#590080" : "white" }}
+          style={{ color: active === "notifications" ? "rgb(221, 160, 19)" : "white" }}
         />
-        <h2 style={{ color: active === "notifications" ? "#590080" : "white" }}>Notifications</h2>
+        <h2 style={{ color: active === "notifications" ? "rgb(221, 160, 19)" : "white" }}>Notifications</h2>
       </div>
       </Link>
       <Link to="/Book"> 
@@ -46,9 +46,9 @@ const FooterNavbar = () => {
       >
         <PiBookLight
           className="footer-navbar-icon"
-          style={{ color: active === "bookings" ? "#590080" : "white" }}
+          style={{ color: active === "bookings" ? "rgb(221, 160, 19)" : "white" }}
         />
-        <h2 style={{ color: active === "bookings" ? "#590080" : "white" }}>My Bookings</h2>
+        <h2 style={{ color: active === "bookings" ? "rgb(221, 160, 19)" : "white" }}>My Bookings</h2>
       </div>
       </Link>
 
@@ -59,9 +59,9 @@ const FooterNavbar = () => {
       >
         <CgProfile
           className="footer-navbar-icon"
-          style={{ color: active === "profile" ? "#590080" : "white" }}
+          style={{ color: active === "profile" ? "rgb(221, 160, 19)" : "white" }}
         />
-        <h2 style={{ color: active === "profile" ? "#590080" : "white" }}>Profile</h2>
+        <h2 style={{ color: active === "profile" ? "rgb(221, 160, 19)" : "white" }}>Profile</h2>
       </div>
       </Link>
     </div>

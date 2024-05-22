@@ -1,7 +1,7 @@
 .Eventleft-main-container {
   width: 100%;
   overflow: scroll;
-  height: 150vh;
+  height: 152vh;
 }
 
 .Eventleft-main-container::-webkit-scrollbar{
@@ -92,7 +92,9 @@
   font-weight: 500;
   line-height: 30px;
   letter-spacing: -0.5px;
-  text-align: justified;
+  text-align: justify;
+  text-justify: inter-word;
+
   /* background: #FFFFFF;
     background-clip: text;
     color:transparent */
