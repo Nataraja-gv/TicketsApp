@@ -1,8 +1,13 @@
 .profile-main-conatiner{
     width: 90%;
     margin: 10px  auto 0px;
-     
+overflow: scroll;
+height: 100vh;
+
     
+}
+.profile-main-conatiner::-webkit-scrollbar{
+    display: none;
 }
 
  .profile-top-container{
