@@ -40,11 +40,14 @@
         display: grid;
         grid-template-columns: 48% 48%;
         column-gap: 4%;
+        margin-bottom: 100px;
        
     }
 
     .eventpages-mobile-section{
         display: block;
+ 
+
     }
 
     .eventpages-desktop-section{

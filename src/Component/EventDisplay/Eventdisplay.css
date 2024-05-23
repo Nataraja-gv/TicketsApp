@@ -32,6 +32,8 @@
 
     .event-display-main-container{
         grid-template-columns: 100%;
+margin-bottom: 100px;
+
     }
     
 } 
