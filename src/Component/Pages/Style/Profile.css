@@ -1,72 +1,65 @@
-.profile-main-conatiner{
-    width: 90%;
-    margin: 10px  auto 0px;
- 
-margin-bottom: 50px;
- 
-
-    
+.profile-main-conatiner {
+  width: 90%;
+  margin: 10px auto 0px;
+  margin-bottom: 50px;
 }
-.profile-main-conatiner::-webkit-scrollbar{
-    display: none;
+.profile-main-conatiner::-webkit-scrollbar {
+  display: none;
 }
 
- .profile-top-container{
-    display: flex;
-    flex-direction: column;
-    /* border: 2px solid red; */
-    align-items: center;
-    margin-top: 50px;
+.profile-top-container {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  align-items: center;
+  margin-top: 50px;
 }
 
-.profile-image{
-    width: 80px;
-    height: 80px;
-    background-color: white;
-    border-radius: 50px;
+.profile-image {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 50px;
 }
 
-.profile-top-container h1{
-    font-size: 20px;
-    color:white;
-    
+.profile-top-container h1 {
+  font-size: 20px;
+  color: white;
 }
 
-.profile-top-container  p{
-    font-size: 12px;
-    color: rgb(154, 150, 150);
+.profile-top-container p {
+  font-size: 12px;
+  color: rgb(154, 150, 150);
 }
 
-.profile-top-container  button{
-    margin:15px auto;
-    font-size: 14px;
-    font-weight: 700;
-    padding: 6px 12px;
-    background-color: rgb(230, 202, 19);
-    border: none;
-    outline:  none;
-    border-radius: 20px;
+.profile-top-container button {
+  margin: 15px auto;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 6px 12px;
+  background-color: rgb(230, 202, 19);
+  border: none;
+  outline: none;
+  border-radius: 20px;
 }
 
-.profile-btn-section{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    margin-bottom: 20px;
-    padding: 12px 12px;
-    border-radius: 20px;
-     
+.profile-btn-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 12px 12px;
+  border-radius: 20px;
 }
 
-.profile-btn-first{
-    display: flex;
-    align-items: center;
-    gap:10px;
-
+.profile-btn-first {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-.profile-btn-first p{
-    font-size: 14px;
-    font-weight: 700;
+.profile-btn-first p {
+  font-size: 14px;
+  font-weight: 700;
 }
