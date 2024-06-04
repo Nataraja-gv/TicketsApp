@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Home.css";
 import Slider from "../Slider/Slider";
 import Featured from "../FeaturedEvent/Featured";
 import EventPage from "../EventPage/EventPage";
-import EventBangalore from "../EventBangalore/EventBangalore";
+// import EventBangalore from "../EventBangalore/EventBangalore";
+import EventCommon from "../common-card/Common_Card";
+import { EventContext } from "../Context/Context";
+
 const Home = () => {
+  const { eventDetails } = useContext(EventContext);
+
   return (
     <div className="Home-main-container">
       <div>
@@ -18,7 +23,7 @@ const Home = () => {
       </div>
 
       <div>
-        <EventBangalore />
+        <EventCommon title={"Events In Bangaluru"} items={eventDetails} />
       </div>
     </div>
   );
